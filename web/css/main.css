@@ -1,0 +1,10 @@
+.preview {
+    width: 306px;
+    height: 396px;
+    border: 2px solid #232323;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+}

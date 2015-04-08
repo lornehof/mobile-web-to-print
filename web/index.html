@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Preview</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/preview.css">
+	<script type="text/javascript" src="libs/jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="libs/underscore.js"></script>
+</head>
+
+<body>
+	<!--container-->
+	<div id="preview-container" class="preview">
+	</div>
+ 
+ 	<!--template-->
+	<script type='text/template' id="preview-template">
+	 	<div class="prog-pos0">
+	 		<div class="header">
+	 			<h4 class="header-style"><%=data.header%></h4>
+	 		</div>
+	 		<div class="subheader">
+	 			<h4 class="subheader-style"><%=data.subheader%></h4>
+	 		</div>
+	 		<div class="line"></div>
+	 	</div>
+
+	 	<% _.each(data.elements, function(element){ %>
+	 		<div class="prog-pos<%=element.order + 1%>">
+	 			<div class="text1">
+	 				<h4 class="text1-style"><%=element.what%></h4>
+	 			</div>
+	 			<div class="text2">
+	 				<h4 class="text2-style"><%=element.who%></h4>
+	 			</div>
+	 			<div class="text3">
+	 				<h4 class="text3-style"><%=element.description%></h4>
+	 			</div>
+	 		</div>
+	 	<% }) %>
+	 		
+ 		</div>
+	</script>
+  
+	<!--Load JSON and render template-->
+	<script type="text/javascript" src="preview.js"></script>
+
+</body>
+</html>

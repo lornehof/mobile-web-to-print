@@ -1,0 +1,39 @@
+{
+    "primaryColor": [99,73,43,33], 
+    "secondaryColor": [2,95,68,0], 
+    "elements": [
+        {
+            "description": "Riviera Grand Ballroom", 
+            "order": 0, 
+            "what": "Coffee + Breakfast", 
+            "who": "8:00-9:00 AM"
+        }, 
+        {
+            "description": "Mesa Conference Room", 
+            "order": 1, 
+            "what": "Pump Up Speech!", 
+            "who": "9:00-9:30 AM"
+        }, 
+        {
+            "description": "Valley Conference Room", 
+            "order": 2, 
+            "what": "Secret Sales", 
+            "who": "9:30-11:00 AM"
+        }, 
+        {
+            "description": "Riviera Grand Ballroom", 
+            "order": 3, 
+            "what": "Happy Customers", 
+            "who": "11:00-12:00 PM"
+        }, 
+        {
+            "description": "Private Dining Hall", 
+            "order": 4, 
+            "what": "Healthy Lunch", 
+            "who": "12:00-1:00 PM"
+        }
+    ], 
+    "header": "Schedule of Events", 
+    "subheader": "2016 Community Meet-Up", 
+    "type": "program_page"
+}
