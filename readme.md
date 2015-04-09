@@ -24,4 +24,4 @@ RUN DEMO:
 
 	 2. If running on Mac, from "indesign" folder execute following in terminal: ./run.sh
 
-	 3. If running on Windows, place "indesign" folder and its contents in the "scripts" folder contained within the InDesign CS6 application. Start InDesign and execute program.jsx from the scripts panel.  
+	 3. If running on Windows, place "indesign" folder and its contents in the "Scripts Panel" folder contained within the InDesign CS6 application. Start InDesign and execute program.jsx from the scripts panel.  
