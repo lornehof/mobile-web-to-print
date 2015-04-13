@@ -1,3 +1,8 @@
+/*preview original size*/
+html {
+    font-size: 10px; /*added so that font sizes converted to rem in preview will scale correctly*/
+}
+
 .preview {
     width: 306px;
     height: 396px;
@@ -7,4 +12,51 @@
     margin-top: 40px;
     position: relative;
     overflow: hidden;
+}
+
+/*preview size x 1.5*/
+@media (min-width: 600px) {
+    html {
+        font-size: 15px;
+    }
+
+    .preview {
+        width: 459px;
+        height: 594px;
+    }
+}
+
+/*preview size x 2*/
+@media (min-width: 800px) {
+    html {
+        font-size: 20px;
+    }
+
+    .preview {
+        width: 612px;
+        height: 792px;
+    }
+}
+/*preview size x 2.5*/
+@media (min-width: 1000px) {
+    html {
+        font-size: 25px;
+    }
+
+    .preview {
+        width: 765px;
+        height: 990px;
+    }
+}
+
+/*preview size x 3*/
+@media (min-width: 1000px) {
+    html {
+        font-size: 30px;
+    }
+
+    .preview {
+        width: 918px;
+        height: 1188px;
+    }
 }
